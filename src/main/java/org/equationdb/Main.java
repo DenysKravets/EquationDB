@@ -1,7 +1,13 @@
 package org.equationdb;
+import net.objecthunter.exp4j.Expression;
+import net.objecthunter.exp4j.ExpressionBuilder;
+import org.equationdb.equation.EquationEvaluator;
+
+import java.util.Scanner;
 
 public class Main {
     public static void main(String... args) {
-        System.out.println("Hello, World!");
+        new EquationDataBase().start(args);
     }
+
 }
