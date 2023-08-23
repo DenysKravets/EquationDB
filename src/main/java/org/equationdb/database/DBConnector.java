@@ -97,7 +97,7 @@ public class DBConnector {
                 String query = "insert into equations (equation)" +
                         " values (\"" + equation.getEquation() + "\")";
                 Statement statement = conn.createStatement();
-                statement.executeQuery(query);
+                statement.executeUpdate(query);
                 statement.close();
 
             } else {
