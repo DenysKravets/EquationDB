@@ -42,6 +42,4 @@ public class EquationEvaluator {
         return simplifiedEquation;
     }
 
-
-
 }
